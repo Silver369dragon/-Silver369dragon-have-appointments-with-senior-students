@@ -1,0 +1,797 @@
+/*-----基本設定-----*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.white{
+  background-color: #FDFDFD;
+}
+
+.Lgray{
+  background-color: #C4C4C4;
+}
+
+.gray{
+  background-color: #8D8D8D;
+}
+
+.black{
+  background-color: #191919;
+}
+
+.gold{
+  background-color: #B4AA7C;
+}
+
+.sky{
+  background-color: #B5D6D6;
+}
+
+.text-white{
+  color: #FDFDFD;
+}
+
+.text-black{
+  color: #000;
+}
+
+.text-gold{
+  color: #B4AA7C;
+}
+
+body{
+  position: relative;
+}
+
+.main-1{
+  position: absolute;
+  left: 10vw;
+}
+
+main{
+  position: relative;
+}
+
+p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+/*-----選單-----*/
+nav{
+  position: absolute;
+  top: 17px;
+  left: 6vw;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 10.5vw));
+  width: 80vw;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: #B4AA7C;
+}
+
+.nav{
+  width: 7.8vw;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*-----活動介紹-----*/
+.bg-1{
+  width: 80vw;
+  height: 1565px;
+}
+
+.bg-3{
+  position: absolute;
+  top: 94px;
+  left: 6.2vw;
+  width: 62vw;
+  height: 1565px;
+}
+
+.text-1-title{
+  position: absolute;
+  top: 1189px;
+  left: 37.3vw;
+  width: 26vw;
+  height: 100px;
+  font-size: 48px;
+}
+
+.text-1-p{
+  position: absolute;
+  top: 1319px;
+  left: 37.3vw;
+  width: 28.6vw;
+  height: 250px;
+}
+
+.bg-4 img{
+  position: absolute;
+  top: 198px;
+  left: 8vw;
+  width: 62vw;
+  height: 550px;
+}
+
+.bg-5 img{
+  position: absolute;
+  top: 176px;
+  left: 7vw;
+  width: 62vw;
+  height: 550px;
+}
+
+.video iframe{
+  position: absolute;
+  top: 766px;
+  left: 32.5vw;
+  width: 33.3vw;
+  height: 360px;
+}
+
+.live .slider-1{
+  position: absolute;
+  top: 1062px;
+  left: 4.7vw;
+  width: 31.2vw;
+  height: 450px;
+}
+
+.slider-1 img{
+  width: 31.2vw;
+  height: 450px;
+}
+
+/*-----校長的話-----*/
+#a2{
+  width: 80vw;
+  height: 805px;
+}
+
+.bg-16{
+  position: absolute;
+  top: 1565px;
+  left: 6.2vw;
+  width: 62vw;
+  height: 805px;
+}
+
+.line img{
+  position: absolute;
+  top: 1383px;
+  left: 6.6vw;
+  width: 1.5vw;
+  height: 800px;
+}
+
+.text-4-title{
+  position: absolute;
+  top: 1810px;
+  left: 8.5vw;
+  width: 26vw;
+  height: 100px;
+  font-size: 48px;
+}
+
+.text-4-p{
+  position: absolute;
+  top: 1930px;
+  left: 8.5vw;
+  width: 26vw;
+  height: 250px;
+}
+
+.liu-1 img{
+  position: absolute;
+  top: 1588px;
+  left: 57.8vw;
+  width: 15.6vw;
+  height: 400px;
+}
+
+.liu-2 img{
+  position: absolute;
+  top: 1980px;
+  left: 42vw;
+  width: 11.7vw;
+  height: 300px;
+}
+
+.liu-3 img{
+  position: absolute;
+  top: 2017.87px;
+  left: 55.2vw;
+  width: 18.2vw;
+  height: 262.25px;
+}
+
+/*-----主題人物-----*/
+#a3{
+  width: 80vw;
+  height: 778px;
+}
+
+.bg-17{
+  position: absolute;
+  top: 2369px;
+  left: 6.2vw;
+  width: 62vw;
+  height: 893px;
+}
+
+.left-top img{
+  position: absolute;
+  top: 3063px;
+  left: 21.7vw;
+  width: 10.4vw;
+  height: 199.64px;
+}
+
+.text-5-title{
+  position: absolute;
+  top: 2717px;
+  left: 42.2vw;
+  width: 26vw;
+  height: 100px;
+  font-size: 48px;
+}
+
+.text-5-p{
+  position: absolute;
+  top: 2847px;
+  left: 42.2vw;
+  width: 26vw;
+  height: 250px;
+}
+
+.letter img{
+  position: absolute;
+  top: 2450px;
+  left: 20.6vw;
+  width: 13vw;
+  height: 187.5px;
+  cursor: default;
+}
+
+.ko-1 img{
+  position: absolute;
+  top: 2515px;
+  left: 3.5vw;
+  width: 15.6vw;
+  height: 400px;
+}
+
+.ko-2 img{
+  position: absolute;
+  top: 2667px;
+  left: 16.5vw;
+  width: 15.6vw;
+  height: 400px;
+}
+
+/*-----關於導演-----*/
+.bg-2{
+  width: 80vw;
+  height: 700px;
+}
+
+.img-99 img{
+  position: absolute;
+  top: 3212px;
+  left: 3.5vw;
+  width: 18.2vw;
+  height: 175px;
+}
+
+.bg-6{
+  position: absolute;
+  top: 3750px;
+  left: 0vw;
+  width: 15.6vw;
+  height: 30px;
+}
+
+.text-2{
+  position: absolute;
+  top: 3403px;
+  left: 10.2vw;
+  width: 52vw;
+  height: 200px;
+}
+
+.text-2-mi{
+  position: absolute;
+  top: 3603px;
+  left: 53.3vw;
+  width: 13vw;
+  height: 50px;
+  font-size: 48px;
+  text-align: center;
+}
+
+/*-----活動議題-----*/
+.bg-7{
+  width: 80vw;
+  height: 1019px;
+}
+
+.bg-8{
+  position: absolute;
+  top: 3726px;
+  left: 26vw;
+  width: 41.6vw;
+  height: 1141px;
+}
+
+.slider-div-3{
+  position: absolute;
+  top: 3848px;
+  left: 0vw;
+  width: 80vw;
+  height: 1019px;
+}
+
+.r-2{
+  position: relative;
+  width: 80vw;
+  height: 1019px;
+}
+
+.bg-9-img{
+  position: absolute;
+  top: -22px;
+  left: 35.3vw;
+  width: 31.2vw;
+  height: 450px;
+}
+
+.bg-24-img{
+  position: absolute;
+  top: 436px;
+  left: 36.1vw;
+  width: 31.2vw;
+  height: 453px;
+}
+
+.slider img{
+  width: 31.2vw;
+  height: 450px;
+}
+
+.bg-10{
+  position: absolute;
+  top: 351px;
+  left: 65vw;
+  width: 1.5vw;
+  height: 350px;
+}
+
+.left-bottom img{
+  position: absolute;
+  top: 603px;
+  left: 6.2vw;
+  width: 10.4vw;
+  height: 200px;
+}
+
+.text-3{
+  position: absolute;
+  top: 48px;
+  left: 8.6vw;
+  width: 31.2vw;
+  height: 600px;
+}
+
+.text-3-1{
+  position: absolute;
+  top: 136px;
+  left: 8.1vw;
+  width: 31.2vw;
+  height: 600px;
+}
+
+.line-2-2 img{
+  position: absolute;
+  top: 509px;
+  left: 39.4vw;
+  width: 31.2vw;
+  height: 453px;
+}
+
+.slider-nav{
+  width: 80vw;
+  height: 1019px;
+}
+
+.text-3-title{
+  width: 15.6vw;
+  height: 50px;
+  font-size: 48px;
+  margin-top: 79px;
+  margin-left: 2.6vw;
+}
+
+.text-3-p{
+  width: 26vw;
+  height: 300px;
+  margin-top: 31px;
+  margin-left: 2.8vw;
+}
+
+/*-----活動心得-----*/
+.bg-11{
+  width: 80vw;
+  height: 1728px;
+}
+
+.bg-12{
+  position: absolute;
+  top: 4865px;
+  left: 26vw;
+  width: 41.6vw;
+  height: 1833px;
+}
+
+.slider-div-2{
+  position: absolute;
+  top: 4830px;
+  left: 0vw;
+  width: 80vw;
+  height: 1200px;
+}
+
+.r{
+  position: relative;
+  width: 80vw;
+  height: 900px;
+}
+
+.bg-13 img{
+  position:absolute;
+  top: 97px;
+  left: 13.5vw;
+  width: 20.8vw;
+  height: 588.52px;
+}
+
+.bg-13-2 img{
+  position:absolute;
+  top: 153px;
+  left: 17.9vw;
+  width: 31.2vw;
+  height: 400px;
+}
+
+.bg-13-3 img{
+  position:absolute;
+  top: 275px;
+  left: 19.8vw;
+  width: 26vw;
+  height: 333.33px;
+}
+
+.bg-14 img{
+  position: absolute;
+  top: 162px;
+  left: 36.6vw;
+  width: 15.6vw;
+  height: 400px;
+}
+
+.bg-14-2 img{
+  position: absolute;
+  top: 59px;
+  left: 51.6vw;
+  width: 20.8vw;
+  height: 588.52px;
+}
+
+.bg-14-3 img{
+  position: absolute;
+  top: 553px;
+  left: 51.3vw;
+  width: 20.8vw;
+  height: 266.67px;
+}
+
+.bg-15 img{
+  position: absolute;
+  top: 113px;
+  left: 54.5vw;
+  width: 14.6vw;
+  height: 500px;
+}
+
+.text-6-title{
+  position: absolute;
+  top: 50px;
+  left: 3.4vw;
+  width: 4.6vw;
+  height: 600px;
+  font-size: 64px;
+  text-align: center;
+}
+
+.text-6-p{
+  position: absolute;
+  top: 624px;
+  left: 36.3vw;
+  width: 28.6vw;
+  height: 250px;
+}
+
+.text-6-p-2{
+  position: absolute;
+  top: 605px;
+  left: 21vw;
+  width: 28.6vw;
+  height: 250px;
+}
+
+.text-6-p-3{
+  position: absolute;
+  top: 78px;
+  left: 49.3vw;
+  width: 22.2vw;
+  height: 329px;
+}
+
+.bg-12-1 img{
+  position: absolute;
+  top: 5890px;
+  left: 6vw;
+  width: 62vw;
+  height: 594px;
+}
+
+/*-----合作團隊-----*/
+.bg-test{
+  width: 80vw;
+  height: 2700px;
+}
+
+.club{
+  position: absolute;
+  width: 750px;
+  height: 500px;
+  left: 181px;
+  top: 256px;
+}
+
+.club-2{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 61px;
+  top: 60px;
+}
+
+.club-t{
+  font-size: 50px;
+}
+
+
+.club-tb{
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  left: 931px;
+  top: 326px;
+  background: #FDFDFD;
+}
+
+
+.club-tb-ig-b{
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin: 342px 177px 38px 53px;
+}
+
+.club-tb-gold{
+  position: absolute;
+  width: 426px;
+  height: 124px;
+  left: 704px;
+  top: 136px;
+}
+
+.club-t-2{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.club-b{
+  position: absolute;
+  margin-top: 831px;
+  margin-left: 672px;
+}
+
+.club-p{
+  width: 95.27px;
+  height: 52.5px;
+  display:block; 
+  margin:auto;
+  transform: rotate(180deg);
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 1400px;
+  height:2700 ;
+  margin-top: 831px;
+}
+ 
+.dropbtn:hover, .dropbtn:focus {
+  background-color:#191919;
+}
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 231px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+} 
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+ 
+.show {
+  display:block;
+}
+
+ .club-menber{
+  padding: 16px;
+  font-size: 16px;
+  width: 1400px;
+  height: 2700px;
+}
+
+.club-triangle{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 61px;
+  top: 460px;
+}
+
+/*-----頁尾-----*/
+.bg-18{
+  position: relative;
+  width: 80vw;
+  height: 604px;
+}
+
+.bg-19 img{
+  position: absolute;
+  top: 181px;
+  left: 7.4vw;
+  width: 52vw;
+  height: 150px;
+}
+
+.bg-20 img{
+  position: absolute;
+  top: 437px;
+  left: 15.2vw;
+  width: 52vw;
+  height: 150px;
+}
+
+.bg-21 img{
+  position: absolute;
+  top: 692px;
+  left: 7.4vw;
+  width: 52vw;
+  height: 150px;
+}
+
+.bg-22{
+  position: absolute;
+  top: 137px;
+  left: 0vw;
+  width: 62vw;
+  height: 400px;
+}
+
+.bg-23{
+  position: absolute;
+  bottom: 0px;
+  left: 52vw;
+  width: 20.8vw;
+  height: 300px;
+}
+
+.line-3 img{
+  position: absolute;
+  bottom: 266px;
+  left: 54.8vw;
+  width: 14.2vw;
+  height: 453px;
+}
+
+.text-7{
+  position: relative;
+  width: 62vw;
+  height: 400px;
+}
+
+.text-7-title{
+  position: absolute;
+  top: 44px;
+  width: 10.4vw;
+  height: 44px;
+  font-size: 36px;
+  text-align: center;
+}
+
+#t1{
+  left: 2vw;
+}
+
+#t2{
+  left: 19.2vw;
+}
+
+#t3{
+  left: 36.1vw;
+}
+
+.text-7-p{
+  position: absolute;
+  top: 133px;
+  width: 5.7vw;
+  height: 199px;
+  text-align: center;
+}
+
+#p1{
+  left: 3.1vw;
+}
+
+#p2{
+  left: 8.9vw;
+}
+
+#p3{
+  left: 14.6vw;
+}
+
+#p4{
+  left: 23vw;
+}
+
+#p5{
+  left: 28.8vw;
+}
+
+#p6{
+  left: 37.2vw;
+}
+
+#p7{
+  left: 43vw;
+}
